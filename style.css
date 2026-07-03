@@ -1,0 +1,53 @@
+body {
+    background-color: #222;
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+}
+
+header {
+
+    color: red;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+.gameCard {
+
+    width:250px;
+
+    margin:auto;
+
+    background:#333;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.gameCard:hover{
+
+    transform:scale(1.05);
+
+    background:#444;
+
+}
+
+#gameContainer{
+
+    margin:30px;
+
+}
+
+canvas{
+    background-color: rgb(53, 53, 53)
+}
